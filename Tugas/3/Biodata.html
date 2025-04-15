@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Universitas Sanata Dharma</title>
+    <link rel="stylesheet" href="style.css">
+    <img src="usd-removebg-preview.png" style="width:300px;height:300px; display: block; margin-left: auto; margin-right: auto;">
+</head>
+<body style="color: white; background-color: black;">
+    <h1 style="text-align:center"><a href="#" >Universitas Sanata Dharma</a></h1>
+    <h2>Ardianto Septianus</h2>
+    <p>Perkenalkan nama saya Ardianto Septianus dengan nim 235314093 yang biasanya dipanggil Ardian. Saya dari prodi informatika angkatan 2023.
+        Saya berumur 19 tahun dan saya berasal dari Kalimantan Barat, Kabupaten Bengkayang. Sejak kecil, saya sudah tertarik dengan dunia teknologi,
+        terutama dalam Game Online yang membuat saya jadi mengerti sedikit demi sedikit tentang komputer. Itulah yang mendorong saya untuk memilih jurusan Informatika di perguruan tinggi.
+        Saat ini, saya sedang mendalami berbagai teknologi dalam pengembangan aplikasi, khususnya berbasis web dan basis data.
+        Saya tertarik dengan bahasa pemrograman seperti Java dan Python. Selain itu, saya juga memiliki ketertarikan pada keamanan siber dan optimasi database.
+        Di luar akademik, saya sangat menyukai olahraga, terutama futsal dan sepak bola. Setiap akhir pekan, saya biasanya bermain bersama teman-teman untuk menjaga kebugaran dan menikmati waktu luang.
+        Saya adalah penggemar berat FC Barcelona, dan pemain favorit saya adalah Lionel Messi. Gaya permainannya yang luar biasa serta dedikasinya terhadap sepak bola menjadi inspirasi bagi saya.
+    </p>
+
+    
+    <ul style=" color: white; text-align: center; list-style-position: inside;">
+        <p>Alasan saya memilih prodi informatika</p>
+        <li>Disuruh orang tua, karena peluang kerjanya besar</li>
+        <li>Karena dapatnya di Prodi Informatika jadi terpaksa memilih informatika</li>
+        <li>Karena sedikit mengerti tentang komputer</li>
+    </ul>
+
+    <h2>Daftar Pengambilan Matakuliah</h2>
+
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            color: white;
+        }
+    </style>
+    <table style="width:100%">
+        <tr>
+            <th>Nama</th>
+            <th>NIM</th>
+            <th>Matakuliah</th>
+        </tr>
+        <tr>
+            <td>Agung</td>
+            <td>205314777</td>
+            <td>Pemrograman Platform</td>
+        </tr>
+        <tr>
+            <td>Hernawan</td>
+            <td>205314888</td>
+            <td>Keamanan Jaringan Komputer</td>
+        </tr>
+        <tr>
+            <td>Iwan</td>
+            <td>205314999</td>
+            <td>Pembelajaran Mesin</td>
+        </tr>
+        <tr color: white;">
+            <td>Tatik</td>
+            <td>205314555</td>
+            <td>Pemrograman Berbasis Objek</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Biodata</title>
+    <style>
+        body {
+            background-image: url('PANTAI.jpeg'); 
+            background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+   
+        }
+
+    </style>
+</head>
+
+<body>
+    <table border="1" cellpadding="8" align="center" style="background-color: hsla(218, 100%, 86%, 0.3)">
+        <tr>
+            <td>
+                <h1 align="center"> BIODATA</h1>
+                <hr>
+                <form>
+        <tr>
+            <td>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <tr>
+                    <td>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <tr>
+                    <td>
+                <label for="sex">Sex:</label>
+                <input type="radio" id="sex-m" name="sex" value="M">
+                <label for="sex-m">M</label>
+                <input type="radio" id="sex-f" name="sex" value="F">
+                <label for="sex-f">F</label><br><br>
+                <label for="marital-status">Marital status:</label>
+                <input type="checkbox" id="married" name="marital-status" value="Married">
+                <label for="married">Married</label>
+                <input type="checkbox" id="children" name="marital-status" value="Children">
+                <label for="children">Children</label><br><br>
+        </tr>
+        </td>
+        <tr>
+            <td>
+                <label for="hobby">Hobby:</label><br>
+                <textarea id="hobby" name="hobby" rows="10" cols="40"> </textarea><br><br>
+                <label for="income">Income:</label>
+                <select id="income" name="income">
+                    <option value="under50k">under $50k</option>
+                    <option value="50k-100k">$50k - $100k</option>
+                    <option value="over100k">over $100k</option>
+                </select><br><br>
+                <input type="button" value="Validate" onclick="validateForm()">
+                </form>
+                <script>
+                    function validateForm() {
+                        alert("Form submitted successfully!");
+                    }
+                </script>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
